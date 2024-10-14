@@ -31,6 +31,6 @@ def romanToInt(s):
 
     return res
 
-
+s = "XI"
 res = romanToInt(s)
 print("resutl: " , res)
