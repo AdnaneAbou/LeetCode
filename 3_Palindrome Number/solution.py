@@ -32,5 +32,3 @@ def isPalindrome(x):
 
 bool_ = isPalindrome(1000021)
 print(bool_)
-
-# print(-159//10)
