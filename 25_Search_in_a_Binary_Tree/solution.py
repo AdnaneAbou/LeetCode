@@ -4,16 +4,6 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-
-def returnTree(root):
-    if not root:
-        return None
-
-    if root.left:
-        return returnTree(root.left)
-    if root.right:
-        return returnTree(root.right)
-
  
 def searchBST( root, val):
     """
