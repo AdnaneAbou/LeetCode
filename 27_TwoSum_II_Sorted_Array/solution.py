@@ -9,18 +9,20 @@ def twoSum(nums, target):
     end = len(nums) -1
 
     while start < end:
-        if nums[start] + nums[end] > target:
+        if nums[start] + nums[end] == target:
             print('start',start,' end',end)
-            end -= 1 
-        elif nums[start] + nums[end] < target:
+            return start +1, end+1
+        
+        if nums[start] + nums[end] > target:
+            print('bb start',start,' end',end)
+            end = end - 1 
+        if nums[start] + nums[end] < target:
             print('start',start,' end',end)
             start += 1
-        elif nums[start] + nums[end] == target:
-            print('start',start,' end',end)
-            return start , end
+
     return -1
             
 
-nums = [2,3,4]
-indices = twoSum(nums , target=6)
+nums =  [2,7,11,15]
+indices = twoSum(nums , target=9)
 print(indices)
