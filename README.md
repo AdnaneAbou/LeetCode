@@ -6,12 +6,29 @@ Welcome to my **LeetCode Grinding Journey**! In this repository, I am sharing my
 This repo isn't just about solutions—it's about growth, learning, and consistency. Whether you're a beginner trying to go from **0 to 1** or someone looking for different perspectives on solving problems, I hope this will be a helpful resource!  
 
 
-## 🤔 My Approach: Dumb Solutions First!
+## 🤔 My Approach: Dumb Solutions First (Brute Force)!
 
-At the start, I focus on **writing simple (even dumb) solutions** without worrying too much about time complexity or optimization. The idea is to build a habit of solving problems consistently rather than getting stuck trying to find the "perfect" solution right away. Once the problem is solved, I gradually refactor and optimize the code, learning from mistakes and inefficiencies along the way.
+At the start, I focus on **writing simple (even dumb) solutions (Brute Force)** without worrying too much about time complexity or optimization. The idea is to build a habit of solving problems consistently rather than getting stuck trying to find the "perfect" solution right away. Once the problem is solved, I gradually refactor and optimize the code, learning from mistakes and inefficiencies along the way.
+
+After being a bit familiarized with the concept , you can delve into learning some Patterns summurized as follows : 
+    1. Two Pointers 
+    2. Prefix Sum
+    3. Sliding Window 
+    4. Binary Search 
+    5. FAST & Slow pointers
+    6. Linked-List In-place Reversal
+    7. Monotonic stack
+    8. Top K elements
+    9. Quicke Select
+    10. Bucket Sort
+    11. Interval Overlapping
+    12. Binary Tree Traversal
+    13. BFS & DFS
+    14. Backtracking
+    15. Dynamic Programming 
 
 ### 💡 Tip for Readers:
-> **Avoid using AI tools (like LLMs) to solve problems for you.**  
+> **Avoid using AI tools (like LLMs) to solve problems for you.**  instead use it to criticize your code or so ..
 > Solving even **10 problems with your brain** is far more valuable than solving 100 problems by relying on AI. This is your training ground to develop problem-solving skills, and the best way to grow is by challenging your mind to think critically and work through the logic yourself. It is totally okay if a problem took some time and it will ,You will be rewarded after on! 
 
 ---
